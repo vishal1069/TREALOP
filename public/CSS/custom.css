@@ -1,48 +1,153 @@
  ul li {
-        display: inline-block;
-        padding: 10px;
-        font-size: 20px;
-        font-family: sans-serif;
-    }
-.icons{
-    
-    text-align: end;
-}
-.dropbtn {
-    
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    text-decoration: none;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    border-style: none;
-    display: block;
-  }
-  a{
-    text-decoration: none !important;
-  }
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+   display: inline-block;
+   padding: 10px;
+   font-size: 20px;
+   font-family: sans-serif;
+ }
+
+ .icons {
+
+   text-align: end;
+ }
+
+ .myimg {
+   background-repeat: no-repeat;
+   background-size: cover;
+   background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("https://www.free-css.com/assets/files/free-css-templates/preview/page261/trealop/images/live-demo/background-01.jpg");
+
+ }
+
+ .dropbtn {
+
+   color: white;
+   padding: 16px;
+   font-size: 16px;
+   border: none;
+ }
+
+ .dropdown {
+   position: relative;
+   display: inline-block;
+ }
+
+ .dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f1f1f1;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+   z-index: 1;
+   text-decoration: none;
+ }
+
+ .dropdown-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   border-style: none;
+   display: block;
+ }
+
+ a {
+   text-decoration: none !important;
+ }
+
+ .dropdown-content a:hover {
+   background-color: #ddd;
+ }
+
+ .dropdown:hover .dropdown-content {
+   display: block;
+ }
+
+ #pageintro article {
+   display: inline-block;
+   max-width: 75%;
+ }
+
+ .heading {
+   margin-bottom: 20px;
+   font-size: 4rem;
+ }
+
+ .btn.inverse:hover {
+   color: rgb(255, 255, 255);
+   background-color: #5bc0de;
+   border-color: #5bc0de;
+ }
+
+ .btn.obverse:hover {
+   color: #000;
+   background-color: transparent;
+   border-color: transparent;
+ }
+
+ .btn {
+   /* display: inline-block; */
+   padding: 8px 18px 10px;
+   text-transform: uppercase;
+   /* color: rgb(255, 255, 255);
+    background-color: rgb(83, 211, 222);
+    border-color: rgb(83, 211, 222); */
+
+ }
+
+ .card {
+   /* height: 410px; */
+   width: 18rem;
+   height: auto;
+ }
+
+ .icon-3 {
+   text-align: center;
+   color: rgb(22, 131, 226);
+   font-size: 45px;
+ }
+
+ .icon-2 {
+   text-align: center;
+   color: rgb(40, 228, 52);
+   font-size: 45px;
+ }
+
+ .icon-1 {
+   text-align: center;
+   color: brown;
+   font-size: 45px;
+ }
+
+ strong {
+   color: #1D8B94;
+   margin-right: 5px;
+   font-size: 50px;
+ }
+
+ .change {
+   font-size: 20px;
+ }
+
+ .mybtn {
+   margin-top: -18px;
+   z-index: 1 !important;
+   position: absolute;
+   margin-left: 105px;
+ }
+
+ .test:hover{
+  background-color: white !important;
+  color: #000 !important;
+ }
+ .card:hover{
+  border-color: #5bc0de;
+ }
+ .icon-4{
+  text-align: center;
+   color:  #5bc0de;
+   font-size: 45px;
+ }
+ .sT{
+  height: auto;
+ }
+ .changeme{
+  background-color:#1D8B94;
+ }
