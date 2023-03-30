@@ -1,3 +1,0 @@
-<footer>
-    Hiiii
-</footer>

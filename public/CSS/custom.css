@@ -4,23 +4,73 @@
    font-size: 20px;
    font-family: sans-serif;
  }
+ /* .navbar-brand1{
+  background-image: url('https://www.free-css.com/assets/files/free-css-templates/preview/page261/trealop/images/live-demo/background-01.jpg');
+ } */
+ .changesize{
+  font-size: 15px;
+  
+ }
 
  .icons {
-
    text-align: end;
+   
+   color: #5bc0de;
+  }
+  .sizechange{
+    font-size: 10px;
+  }
+  .sizechangee{
+    font-size: 10px;
+  }
+  
+  .myimg {
+    margin: 0 auto;
+   width: 70%;
+   /* background-repeat: no-repeat; */
+   /* background-size: contain; */
+   /* height: auto; */
+   /* background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page261/trealop/images/live-demo/background-01.jpg"); */
+   /* background-repeat: no-repeat; */
+   background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)),url("https://www.free-css.com/assets/files/free-css-templates/preview/page261/trealop/images/live-demo/background-01.jpg") no-repeat;
  }
+ 
 
- .myimg {
+
+ .photo {
    background-repeat: no-repeat;
-   background-size: contain;
-   height: auto;
-   background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("https://www.free-css.com/assets/files/free-css-templates/preview/page261/trealop/images/live-demo/background-01.jpg");
-
+   background-size: cover;
+   height: 300px;
+   width: 100%;
+   background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("https://www.free-css.com/assets/files/free-css-templates/preview/page261/trealop/images/live-demo/background-02.jpg") !important;
  }
 
- .cus-mt-5{
-  margin-top: 5% !important;
+ .cus-mt-5 {
+   margin-top: 5% !important;
  }
+ .cus-mt-3 {
+  margin-top: 3% !important;
+}
+
+.cus-mt-30
+{
+  margin-top: 30px !important;
+}
+hr{
+  color: #5bc0de;
+  background-color: #5bc0de;
+}
+input{
+  color: #5bc0de;
+  background-color: #1f2122;
+  border-color: #5bc0de;
+}
+.mytbnsub{
+  border: none;
+}
+.txtchange{
+  color: #5bc0de;
+}
 
  .dropbtn {
 
@@ -138,31 +188,115 @@
    margin-left: 105px;
  }
 
- .test:hover{
-  background-color: white !important;
-  color: #000 !important;
+ .test:hover {
+   background-color: white !important;
+   color: #000 !important;
  }
- .card1:hover{
-  border-color: #5bc0de;
+
+ .card1:hover {
+   border-color: #5bc0de;
  }
- .icon-4{
-  text-align: center;
-   color:  #5bc0de;
+
+ .icon-4 {
+   text-align: center;
+   color: #5bc0de;
    font-size: 45px;
  }
- .sT{
-  height: auto;
+
+ .sT {
+   height: auto;
  }
- .changeme{
-  background-color:#1D8B94;
-  height: 100px;
+
+ .changeme {
+   background-color: #1D8B94;
+   height: 100px;
  }
- .velit{
+
+ .velit {
+   font-size: 30px;
+ }
+
+ .hover-overlay:hover {
+   background-color: hsla(0, 0%, 98%, 0.2)
+ }
+
+ .changewrap {
+   background-color: lightgray;
+ }
+
+ .insideimage{
+  border-radius:50% ;
+  height: 105px;
+  width: 125px;
+  margin-top: 60px;
+ }
+ .i-1{
+  color: teal;
+  font-size: 20px;
+  
+ }
+ .i-2{
+  font-size: 25px;
+ }
+ @media screen and (min-width:350px) and (max-width:600px) {
+  .text{
+    font-size: 12px;
+  }
+  .insideimage {
+    height: 48px;
+    width: 51px;
+  }
+ }
+ .fbg{
+  background-color:#000;
+  color: white;
+ }
+ .arrow{
   font-size: 30px;
+ 
+  position: sticky;
+  
  }
- .hover-overlay:hover{
-  background-color: hsla(0, 0%, 98%, 0.2)
+
+ /* footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.1);
+} */
+
+
+ /* #section-image {
+   background-image: url('https://www.free-css.com/assets/files/free-css-templates/preview/page261/trealop/images/live-demo/background-02.jpg') !important;
+   height: 360px;
+   width: 100%;
+   background-repeat: no-repeat;
+
+
+ } */
+
+ /* IMG STACKS */
+ .imgstack{
+  width: 33%;
  }
- .changewrap{
-  background-color: lightgray;
- }
+ .zoom {
+  padding: 20px;
+  transition: transform .2s;
+  width: 220px;
+  height: 220px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+.cardhov:hover{
+    border-color: #5bc0de;
+}
