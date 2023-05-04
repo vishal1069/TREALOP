@@ -15,9 +15,36 @@
     <link rel="stylesheet" href="D:\TREALOP\public\CSS\custom.css">
     <!--  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="public/CSS/zoom.css">
+    <style>
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 12px;
+            line-height: 1.6;
+        }
+
+        .container {
+            margin: 50px;
+            max-width: 700px;
+        }
+
+        .container img {
+            width: 100%;
+        }
+
+        
+
+        @media (min-width: 750px) {
+            body {
+                font-size: 16px;
+                line-height: 1.6;
+            }
+
+            .container {
+                margin: 100px auto;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -136,14 +163,14 @@
             <div class="col-lg-3 col-md-4 col-6 zoom">
                 <a href="#" class="d-block mb-4 h-100">
                     <img class="img-fluid img-thumbnail"
-                        src="https://www.free-css.com/assets/files/free-css-templates/preview/page261/trealop/images/live-demo/01.jpg"
+                        src="public/Images/15.jpg" data-action="zoom"
                         alt="">
                 </a>
             </div>
 
             <div class="col-lg-3 col-md-4 col-6 zoom">
                 <a href="#" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail"
+                    <img class="img-fluid img-thumbnail"data-action="zoom"
                         src="https://www.free-css.com/assets/files/free-css-templates/preview/page261/trealop/images/live-demo/02.jpg"
                         alt="">
                 </a>
@@ -151,7 +178,7 @@
 
             <div class="col-lg-3 col-md-4 col-6 zoom">
                 <a href="#" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail"
+                    <img class="img-fluid img-thumbnail" data-action="zoom"
                         src="https://www.free-css.com/assets/files/free-css-templates/preview/page261/trealop/images/live-demo/03.jpg"
                         alt="">
                 </a>
@@ -159,72 +186,78 @@
 
             <div class="col-lg-3 col-md-4 col-6 zoom">
                 <a href="#" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt="">
+                    <img class="img-fluid img-thumbnail" data-action="zoom" src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-6 zoom">
                 <a href="#" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aob0ukAYfuI/400x300" alt="">
+                    <img class="img-fluid img-thumbnail" data-action="zoom" src="https://source.unsplash.com/aob0ukAYfuI/400x300" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-6 zoom">
                 <a href="#" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EUfxH-pze7s/400x300" alt="">
+                    <img class="img-fluid img-thumbnail" data-action="zoom" src="https://source.unsplash.com/EUfxH-pze7s/400x300" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-6 zoom">
                 <a href="#" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/M185_qYH8vg/400x300" alt="">
+                    <img class="img-fluid img-thumbnail" data-action="zoom" src="https://source.unsplash.com/M185_qYH8vg/400x300" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-6 zoom">
                 <a href="#" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/sesveuG_rNo/400x300" alt="">
+                    <img class="img-fluid img-thumbnail" data-action="zoom" src="https://source.unsplash.com/sesveuG_rNo/400x300" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-6 zoom">
                 <a href="#" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/AvhMzHwiE_0/400x300" alt="">
+                    <img class="img-fluid img-thumbnail" data-action="zoom" src="https://source.unsplash.com/AvhMzHwiE_0/400x300" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-6 zoom">
                 <a href="#" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/2gYsZUmockw/400x300" alt="">
+                    <img class="img-fluid img-thumbnail" data-action="zoom" src="https://source.unsplash.com/2gYsZUmockw/400x300" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-6 zoom">
                 <a href="#" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EMSDtjVHdQ8/400x300" alt="">
+                    <img class="img-fluid img-thumbnail" data-action="zoom" src="https://source.unsplash.com/EMSDtjVHdQ8/400x300" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-6 zoom">
                 <a href="#" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/8mUEy0ABdNE/400x300" alt="">
+                    <img class="img-fluid img-thumbnail" data-action="zoom" src="https://source.unsplash.com/8mUEy0ABdNE/400x300" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-6 zoom">
                 <a href="#" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/G9Rfc1qccH4/400x300" alt="">
+                    <img class="img-fluid img-thumbnail" data-action="zoom" src="https://source.unsplash.com/G9Rfc1qccH4/400x300" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-6 zoom">
                 <a href="#" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aJeH0KcFkuc/400x300" alt="">
+                    <img class="img-fluid img-thumbnail" data-action="zoom" src="https://source.unsplash.com/aJeH0KcFkuc/400x300" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-6 zoom">
                 <a href="#" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300" alt="">
+                    <img class="img-fluid img-thumbnail" data-action="zoom" src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-6 zoom">
                 <a href="#" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300" alt="">
+                    <img class="img-fluid img-thumbnail" data-action="zoom" src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300" alt="">
                 </a>
             </div>
         </div>
 
     </div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="public/JS/zoom.js"></script>
 
 </html>
